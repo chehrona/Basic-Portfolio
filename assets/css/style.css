@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    background-image: url("../images/plaster.jpeg");
+    font-family: sans-serif;
+
+}
+.topnav {
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 40px;
+    padding-left: 170px;
+    background-color: white;
+    display: flex;
+    margin-top: -1px;
+}
+
+.active {
+    position: absolute;
+    right: 0px;
+    display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 170px;
+    font-size: 16px;
+
+
+}
+#about {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid lightgrey;
+}
+
+#work {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid lightgrey;
+}
+#logo {
+    border: 1px solid lightgrey;
+    background-color: darkcyan;
+    padding: 30px;
+    margin: auto 0;
+    font-family: "Times New Roman";
+    font-weight: bolder;
+    color: white;
+    font-size: 32px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    display: inline;
+    float: left;
+}
+.container {
+    padding-left: 30px;
+    border: 1px solid lightgrey;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+#pic {
+    display: inline;
+}
+p {
+    margin: 0px;
+    line-height: 2;
+    color: grey;
+    padding-bottom: 20px;
+}
+h1 {
+    border-bottom: 2.5px solid lightgrey;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: darkcyan;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 6px solid darkcyan;
+    text-align: center;
+    padding-top: 25px;
+    margin: auto 0;
+    background-color: grey;
+    color: white;
+    padding-bottom: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 18px;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: black;
+
+}
