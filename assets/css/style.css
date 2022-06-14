@@ -219,25 +219,3 @@ textarea {
     /*min-width: 260px;*/
     box-sizing: border-box;
 }
-
-@media only screen and (max-device-width: 600px){
-    .active {
-        font-size: 12px;
-        display: block;
-        text-align: right;
-    }
-    #about {
-        border: none;
-        padding-right: 0px;
-        margin-right: 0px;
-    }
-    #work {
-        border: none;
-        padding-right: 0px;
-        margin-right: 0px;
-    }
-    #contact {
-        padding-right: 0px;
-        margin-right: 0px;
-    }
-}
