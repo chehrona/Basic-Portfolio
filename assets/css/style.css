@@ -2,12 +2,12 @@ body {
     margin: 0px;
     background-image: url("../images/plaster.jpeg");
     font-family: sans-serif;
-
 }
 .topnav {
     border-bottom: 2px solid lightgrey;
     margin-bottom: 40px;
-    padding-left: 170px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: white;
     display: flex;
     margin-top: -1px;
@@ -19,10 +19,8 @@ body {
     display: inline-flex;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 170px;
+    padding-right: 5%;
     font-size: 16px;
-
-
 }
 #about {
     margin-right: 15px;
@@ -37,7 +35,7 @@ body {
 }
 #logo {
     border: 1px solid lightgrey;
-    background-color: darkcyan;
+    background-color: cornflowerblue;
     padding: 30px;
     margin: auto 0;
     font-family: "Times New Roman";
@@ -45,7 +43,7 @@ body {
     color: white;
     font-size: 32px;
 }
-img {
+#profile {
     height: 200px;
     width: 200px;
     padding-bottom: 10px;
@@ -57,12 +55,14 @@ img {
 .container {
     padding-left: 30px;
     border: 1px solid lightgrey;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-right: 30px;
     background-color: white;
     color: grey;
     display: block;
+    min-height: 370px;
+    min-width: 200px;
 }
 
 #pic {
@@ -79,14 +79,14 @@ h1 {
     padding-top: 10px;
     font-family: "Times New Roman";
     font-weight: bold;
-    color: darkcyan;
+    color: cornflowerblue;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 6px solid darkcyan;
+    border-top: 6px solid cornflowerblue;
     text-align: center;
     padding-top: 25px;
     margin: auto 0;
@@ -95,17 +95,17 @@ footer {
     padding-bottom: 5px;
 }
 
-a:link {
+.links:link {
     text-decoration: none;
     color: darkgrey;
     font-size: 18px;
 }
 
-a:visited {
+.links:visited {
     color: darkgrey;
 }
 
-a:hover {
+.links:hover {
     color: black;
 
 }
@@ -127,7 +127,7 @@ button {
     text-align: center;
     height: 40px;
     width: 110px;
-    background-color: darkcyan;
+    background-color: cornflowerblue;
     color: white;
     font-size: 16px;
     border: 1px solid lightgrey;
@@ -172,4 +172,72 @@ textarea {
 #message {
     display: block;
     max-width: 100%;
+}
+
+.gamebox {
+    position: relative;
+    color: black;
+    border: 1px solid lightgrey;
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 30px;
+    display: inline-block;
+}
+.gamename {
+    position: absolute;
+    top: 150px;
+    background-color: cornflowerblue;
+    width: 200px;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gamepic {
+    height: 200px;
+    width: 200px;
+}
+
+.gitlinks:link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.gitlinks:visited {
+    color: white;
+}
+
+.gamename:hover {
+    border: 1px solid black;
+}
+
+#grid {
+    /*min-width: 260px;*/
+    box-sizing: border-box;
+}
+
+@media only screen and (max-device-width: 600px){
+    .active {
+        font-size: 12px;
+        display: block;
+        text-align: right;
+    }
+    #about {
+        border: none;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    #work {
+        border: none;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    #contact {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
 }
