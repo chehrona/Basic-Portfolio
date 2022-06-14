@@ -158,7 +158,7 @@ textarea {
     display: block;
     box-sizing: border-box;
     max-width: 100%;
-    min-width: 50%;
+    min-width: 100%;
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
