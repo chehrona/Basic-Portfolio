@@ -61,6 +61,8 @@ img {
     margin-right: 170px;
     padding-right: 30px;
     background-color: white;
+    color: grey;
+    display: block;
 }
 
 #pic {
@@ -69,7 +71,6 @@ img {
 p {
     margin: 0px;
     line-height: 2;
-    color: grey;
     padding-bottom: 20px;
 }
 h1 {
@@ -107,4 +108,68 @@ a:visited {
 a:hover {
     color: black;
 
+}
+
+
+#fname {
+    margin-bottom: 15px;
+}
+
+#email {
+    margin-bottom: 15px;
+}
+
+#message {
+    margin-bottom: 15px;
+}
+
+button {
+    text-align: center;
+    height: 40px;
+    width: 110px;
+    background-color: darkcyan;
+    color: white;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-top: 5px;
+    display: block;
+    height: 35px;
+    border: 1px solid lightgrey;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+form {
+    margin-right: 30px;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+#submit:active {
+    border: 2px solid black;
+}
+
+#message {
+    display: block;
+    max-width: 100%;
 }
